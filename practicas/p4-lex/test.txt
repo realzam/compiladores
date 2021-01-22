@@ -1,0 +1,21 @@
+2D 1920x1080;
+cuadrado _cuarado 5;
+triangulo _t 10;
+_cuarado.contorno(verde);
+_t.rotar(60);
+
+
+3D 1920x1080;
+cubo _caja 15;//cuadrado de dimension 5
+_caja.trasladar(50,-100,40);
+esfera _esfera 30;
+_esfera.contorno(verde);
+
+
+2D 1920x1080;
+rectangulo a,b,c 640 1080;
+a.contorno(verde);
+a.contorno(blanco);
+a.contorno(rojo);
+
+
